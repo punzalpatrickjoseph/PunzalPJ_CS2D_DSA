@@ -1,0 +1,22 @@
+let name1 = "Name: LAS MARIAS Maria Delos Santos";
+let age1 = "Age: 25";
+let address1 = "Address: Upper Session Road, Baguio City, Benguet";
+
+var name2 = "Name: DELA CRUZ, Juan Gamoso";
+var age2 = "Age: 28";
+var address2 = "Address: San Nicolas, Candon City, Ilocos Sur";
+var info = name1 + ", " + age1 + ", " + address1;
+var per_info = name2 + ", " + age2 + ", " + address2;
+
+var name1Length = name1.length;
+var name2Length = name2.length;
+var address1Length = address1.length;
+var address2Length = address2.length;
+
+console.log(info);
+console.log(per_info);
+console.log(info.length + per_info.length);
+console.log(25 + 28);
+console.log(name1.length);
+console.log(name1Length * name2Length);
+console.log(address1Length ** address2Length);
